@@ -7,11 +7,12 @@ This work is the implementation of the paper [*Approximation of Response Knowled
 
 ## Data Format
 In the data folder, all of the datasets are put there. The directionary lever should be like:
--data
---wizard
----train
----valid
----test
+* -data
+* --wizard
+* ---train
+* ---valid
+* ---test
+</br>
 In each train/valid/test folder, the following files should be in:
 
 * pro_qa.txt. Main post-response pair. The format: `index \t post \t reponse`.
